@@ -48,13 +48,7 @@
 
       body, html {height: 100%}
       body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
-      .wrap_like_normal{
-        font-size: 3rem;
-    }
-    .nowrap_ad {
-        font-size: 3rem;
-        white-space: nowrap;
-    }
+   
     h1, h2, h3, h4, h5, h6 {
         overflow-wrap: normal;
     }
@@ -96,5 +90,12 @@
         background-color: rgb(255, 213, 251);
         color: rgb(255, 143, 210);
       }
-
+      .aside {
+        background-color: #ffc9fb;
+        padding: 20px;
+        color: #000000;
+        text-align: center;
+        font-size: 25px;
+        
+      }
 
