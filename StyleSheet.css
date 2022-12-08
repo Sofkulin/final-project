@@ -48,12 +48,22 @@
 
       body, html {height: 100%}
       body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+      .wrap_like_normal{
+        font-size: 3rem;
+    }
+    .nowrap_ad {
+        font-size: 3rem;
+        white-space: nowrap;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        overflow-wrap: normal;
+    }
 
       .centered {
         position: absolute;
         top: 190px; ;
         left: 50%;
-        font-size: 100PX;
+        font-size: 30px;
         transform: translate(-50%, -50%); }
       
     .topnav {
@@ -65,9 +75,9 @@
         float: left;
         color: #ffffff;
         text-align: center;
-        padding: 14px 16px;
+        padding: 10px 10px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 10px;
     }
 
     .topnav a:hover {
@@ -78,6 +88,13 @@
     .topnav a.active {
         background-color: #8e34f5;
         color: white;
+      }
+
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: rgb(255, 213, 251);
+        color: rgb(255, 143, 210);
       }
 
 
