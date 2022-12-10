@@ -96,12 +96,19 @@
         color: #000000;
         text-align: center;
         font-size: 25px;
-        
       }
+
       .flex-container {
+          display: flex;
+          background-color: #ffffff;
+      }
+        
+      
+      .flex-container >div {
         display: flex;
         background-color: #ffc9fb;
         padding: 20px;
+        width: 500px;
         color: #000000;
         text-align: center;
         font-size: 25px;
