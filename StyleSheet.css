@@ -100,11 +100,18 @@
       
       .flex-container >div {
         display: flex;
+        flex-direction: row;
         background-color: #ffc9fb;
         padding: 20px;
         width: 500px;
         color: #000000;
         text-align: center;
         font-size: 25px;
+      }
+
+      @media (max-width: 800px) {
+        .flex-container {
+          flex-direction: column;
+        }
       }
 
