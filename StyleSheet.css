@@ -118,7 +118,7 @@
 
 
       @media (max-width: 800px) {
-        .flex-container {
+        .flex-item-left,.flex-item-right{
           flex-direction: column;
         }
       }
