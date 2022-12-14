@@ -100,7 +100,9 @@
       
       .flex-container >div {
         display: flex;
-        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-around;
+        flex-wrap: wrap;
         background-color: #ffc9fb;
         padding: 20px;
         width: 500px;
