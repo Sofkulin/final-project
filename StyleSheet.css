@@ -94,22 +94,27 @@
 
       .flex-container {
           display: flex;
-          background-color: #ffffff;
+          flex-wrap: wrap;
       }
-        
-      
-      .flex-container >div {
-        display: contents;
-        align-items: stretch;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        background-color: #ffc9fb;
+
+      .flex-item-left {
+        background-color:#ffc9fb;
         padding: 10px;
-        width: 800px;
+        flex: 50%;
         color: #000000;
         text-align: center;
         font-size: 25px;
       }
+
+      .flex-item-right {
+        background-color:#ffc9fb00;
+        padding: 10px;
+        flex: 50%;
+        color: #000000;
+        text-align: center;
+        font-size: 25px;
+      }
+
 
       @media (max-width: 800px) {
         .flex-container {
