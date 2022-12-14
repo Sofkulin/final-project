@@ -91,13 +91,12 @@
         color: rgb(255, 143, 210);
       }
 
-      * {
-        box-sizing: border-box;
-      }
-      
+    
       .flex-container {
           display: flex;
-          flex-wrap: wrap;
+          flex-wrap:wrap;
+          align-items: stretch;
+          justify-content: space-around;
           flex-direction: row;
           font-size: 30px;
       }
