@@ -96,6 +96,12 @@
         background-color: rgb(255, 213, 251);
         color: rgb(255, 143, 210);
       }
+
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
     
       .flex-container {
           display: flex;
