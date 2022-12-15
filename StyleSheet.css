@@ -60,7 +60,7 @@
 
       .centered {
         position: absolute;
-        size: 5vw;
+        resize: 5vw;
         top: 190px; ;
         left: 50%;
         font-size: 70px;
