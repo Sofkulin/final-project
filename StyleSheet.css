@@ -60,10 +60,9 @@
 
       .centered {
         position: absolute;
-        resize: 5vw;
-        top: 190px; ;
+        top: 190px;
         left: 50%;
-        font-size: 70px;
+        font-size: 7vw;
         transform: translate(-50%, -50%); }
       
     .topnav {
