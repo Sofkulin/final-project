@@ -58,12 +58,13 @@
       overflow-wrap: normal;
     }
 
-      .centered {
-        position: absolute;
-        top: 190px;
-        left: 50%;
-        font-size: 7vw;
-        transform: translate(-50%, -50%); }
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 7vw;
+      transform: translate(-50%, -50%);
+    }
       
     .topnav {
         background-color: rgb(201, 145, 248);
