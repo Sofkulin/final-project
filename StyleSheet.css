@@ -91,6 +91,7 @@
       }
 
       footer {
+        float: left;
         width: 100%;
         text-align: center;
         padding: 3px;
