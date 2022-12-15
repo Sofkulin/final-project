@@ -49,12 +49,18 @@
       body, html {height: 100%}
       body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
    
-    h1, h2, h3, h4, h5, h6 {
+    h2, h3, h4, h5, h6 {
         overflow-wrap: normal;
+    }
+
+    h1 {
+      text-align: center;
+      overflow-wrap: normal;
     }
 
       .centered {
         position: absolute;
+        size: 5vw;
         top: 190px; ;
         left: 50%;
         font-size: 70px;
