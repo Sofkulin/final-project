@@ -91,10 +91,15 @@
       }
 
       footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
         text-align: center;
         padding: 3px;
-        background-color: rgb(255, 213, 251);
-        color: rgb(255, 143, 210);
+        background-color: #ffc9fb;
+        color: rgb(255, 0, 153);
+        font-size:25px ;
       }
 
       .container {
