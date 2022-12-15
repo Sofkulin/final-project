@@ -123,9 +123,28 @@
         text-align: center;
       }
 
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+        padding: 15px;
+        text-align: center;
+        font-size: 35px;
+        justify-content: space-around;
+
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
 
       @media (max-width: 800px) {
-        .flex-container > div{
+        .column {
           flex-direction: column;
         }
       }
